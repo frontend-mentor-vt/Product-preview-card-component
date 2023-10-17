@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.product-content {
+  max-width: 420px;
+  display: flex;
+  width: 100%;
+}
+.product-content .image-wrapp {
+  width: 54%;
+}
+.product-content .product-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px 0 0 8px;
+}
+.right-side-wrapp {
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 46%;
+  border-radius: 0 8px 8px 0;
+}
+.right-side-wrapp .top-header {
+  letter-spacing: 3.5px;
+  font-size: 9px;
+  margin-bottom: 15px;
+  color: hsl(228, 12%, 48%);
+  text-transform: uppercase;
+}
+.right-side-wrapp .title {
+  font-family: "Fraunces", serif;
+  margin-bottom: 20px;
+  font-size: x-large;
+}
+
+.right-side-wrapp .description {
+  font-size: 11px;
+  color: hsl(228, 12%, 48%);
+  line-height: 17px;
+}
+
+.right-side-wrapp .price-wrapp {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-top: 20px;
+}
+.right-side-wrapp .price {
+  color: hsl(158, 36%, 37%);
+  font-family: "Fraunces", serif;
+  font-size: x-large;
+}
+.right-side-wrapp .crossed-price {
+  color: hsl(228, 12%, 48%);
+  font-size: 10px;
+  text-decoration: line-through;
+}
+.btn-text {
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.add-btn {
+  cursor: pointer;
+  width: 100%;
+  padding: 8px;
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  border-radius: 5px;
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
