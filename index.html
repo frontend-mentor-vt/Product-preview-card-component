@@ -10,9 +10,12 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Frontend Mentor | Product preview card component</title>
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./styles.css" />
@@ -21,35 +24,48 @@
     <div class="container">
       <div class="product-content">
         <div class="image-wrapp">
-          <img class="product-image" src="./images/image-product-desktop.jpg" alt="" />
+          <img
+            class="product-image"
+            src="./images/image-product-desktop.jpg"
+            alt=""
+          />
         </div>
         <div class="right-side-wrapp">
           <div class="text-wrapp">
             <p class="top-header">Perfume</p>
             <h1 class="title">
-              <div>Gabrielle</div>
-              <div>Essence Eau</div>
-              <div>De Parfum<div>
+              <div class="desktop-text">
+                <div>Gabrielle</div>
+                <div>Essence Eau</div>
+                <div>De Parfum</div>
+              </div>
+              <div class="mobile-text">
+                <div>Gabrielle Essence</div>
+                <div>Eau De Parfum</div>
+              </div>
             </h1>
-            <p class="description">
-              A floral,solar,voluptuous interpetation composed by Oliver Polge,Perfumer-Creator for the house of CHANEL.
+            <p class="description-desktop">
+              A floral,solar,voluptuous interpetation composed by Oliver
+              Polge,Perfumer-Creator for the house of CHANEL.
             </p>
+            <div class="description-mobile">
+              <p>A floral,solar,voluptuous</p>
+              <p>interpetation composed by Oliver</p>
+              <p>Polge,Perfumer-Creator for the house of</p>
+              <p>CHANEL.</p>
+            </div>
             <div class="price-wrapp">
-              <p class="price">
-                $149.99
-              </p>
+              <p class="price">$149.99</p>
               <p class="crossed-price">$169.99</p>
             </div>
-           
           </div>
           <button class="add-btn">
-            <img src="./images/icon-cart.svg" alt="">
+            <img src="./images/icon-cart.svg" alt="" />
             <p class="btn-text">Add to Cart</p>
-           </button>
+          </button>
         </div>
       </div>
     </div>
+    <script src="./index.js"></script>
   </body>
 </html>
-
-
