@@ -1,6 +1,6 @@
 # Product-preview-card-component
 ### Short description
-1) ### In this component in CSS file I used names of the classes and their parent blocks, because it is a good practice to prevent duplicates.
+1) #### In this component in CSS file I used names of the classes and their parent blocks, because it is a good practice to prevent duplicates.
 
 2) #### In svg file I used special settings to adjust the size.
 
